@@ -930,6 +930,11 @@ public class FragmentLayout extends Activity implements
 		}
 
 		@Override
+		public void onLowMemory() {
+			// Body
+		}
+		
+		@Override
 		public boolean onOptionsItemSelected(MenuItem item) {
 			switch (item.getItemId()) {
 			case android.R.id.home:
